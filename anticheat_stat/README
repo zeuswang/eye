@@ -1,0 +1,15 @@
+支持功能：
+对日志进行统计，按照KEY对pv、session、老用户等信息进行统计
+1.支持key有：
+	domain、refer、date、hour
+	ip、用户id
+2.支持value有：
+	pv、uv、session、old_user、click_num、avg_ml
+
+版本缺陷：
+1.很多参数没有配置文件化
+2.页面效果需要改进
+3.日志没有预处理，运行时处理
+
+提示：
+对应日志需要赋予读写权限(chmod 777 xxxx)
